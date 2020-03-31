@@ -23,6 +23,7 @@ namespace PPT_ForceModeSelector
     {
         Thread worker = null;
         ProcessMemory Game;
+        bool pop2=false;
         public MainWindow()
         {
             InitializeComponent();
@@ -92,6 +93,14 @@ namespace PPT_ForceModeSelector
                         //        ? 3 //If in pregame, force gamemode to 6w
                         //        : 4 //else, force gamemode to regular fusion
                         //    );
+                        if(pop2 == true)
+                        {
+                            Game.WriteByte(new IntPtr(0x140442572), 2);
+                        }
+                        else
+                        {
+                            Game.WriteByte(new IntPtr(0x140442572), 4);
+                        }
                         if (InPreGame())
                         {
                             Game.WriteInt32(new IntPtr(0x140598BB8), 3);
@@ -155,6 +164,18 @@ namespace PPT_ForceModeSelector
                 && (Game.ReadByte(new IntPtr(0x14046069C)) == 7) || (Game.ReadByte(new IntPtr(0x14046069C)) == 8); //Check for specific scenario that makes sure you are in the right position for gamemode to be forced without crash
             Game.TrustProcess = false;
             return ret;
+        }
+
+        private void ispop2_Checked(object sender, RoutedEventArgs e)
+        {
+            bool? a = ispop2.IsChecked;
+            if (a == true)
+            {
+                pop2 = true;
+            }
+            else {
+                pop2 = false;
+            }
         }
     }
 }

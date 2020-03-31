@@ -6,17 +6,30 @@
         xmlns:local="clr-namespace:PPT_ForceTinyPuyo_netframe"
         mc:Ignorable="d"
         Closed="Window_Closed"
-        Title="PPT-Force Mode Selector v3 by whitetac(9902abcd@gmail.com)" Height="172" Width="413.847">
+        Title="PPT-FMS v3 by whitetac(9902abcd@gmail.com)" Height="252" Width="338.998" SizeToContent="Height">
 
-    <StackPanel Name="set" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,10,10" >
-        <RadioButton Name="none" GroupName="set" Height="16" IsChecked="True" AutomationProperties.Name="0">none</RadioButton>
-        <RadioButton Name="mini" GroupName="set" Height="16">Force Mini Puyo</RadioButton>
-        <RadioButton Name="end" GroupName="set" Height="16">Force EndlessFerver</RadioButton>
-        <RadioButton Name="a6w" GroupName="set" Height="16">6w fusion</RadioButton>
-        <RadioButton Name="a10w" GroupName="set" Height="16">10w fusion</RadioButton>
-        <RadioButton Name="nodamage" GroupName="set" Height="16">no damage tetris</RadioButton>
-        <TextBlock  Height="16">fix 6w 10w fusion mode by Fudge Bin Meme</TextBlock>
-    </StackPanel>
+    <Grid Margin="10,10,10,10">
+        <StackPanel>
+            <RadioButton Name="none" GroupName="set" IsChecked="True">no mod(default)</RadioButton>
+            <GroupBox Header="Puyo">
+                <StackPanel>
+                    <RadioButton Name="mini" GroupName="set" Height="16">Force Mini Puyo</RadioButton>
+                    <RadioButton Name="end" GroupName="set" Height="16">Force EndlessFerver</RadioButton>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Header="Tetris">
+                <RadioButton Name="nodamage" GroupName="set" Height="16">no damage tetris</RadioButton>
+            </GroupBox>
+            <GroupBox Header="Fusion">
+                <StackPanel>
+                    <RadioButton Name="a6w" GroupName="set" Height="16">6w fusion</RadioButton>
+                    <RadioButton Name="a10w" GroupName="set" Height="16">10w fusion</RadioButton>
+                    <CheckBox Name="ispop2" Height="16" Checked="ispop2_Checked">2pop</CheckBox>
+                </StackPanel>
+            </GroupBox>
+            <TextBlock Height="20"><Run Text="+"/><Run Text="fix 6w 10w fusion mode"/><Run Text=" "/><Run Text="by Fudge Bin Meme"/></TextBlock>
+        </StackPanel>
+    </Grid>
 
 
 </Window>
