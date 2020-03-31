@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPT-ForceModeSelector", "PPT-ForceModeSelector\PPT-ForceModeSelector.csproj", "{E898797D-147E-468F-A8AA-E31E1CF4633B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E898797D-147E-468F-A8AA-E31E1CF4633B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E898797D-147E-468F-A8AA-E31E1CF4633B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E898797D-147E-468F-A8AA-E31E1CF4633B}.Debug|x64.ActiveCfg = Debug|x64
+		{E898797D-147E-468F-A8AA-E31E1CF4633B}.Debug|x64.Build.0 = Debug|x64
+		{E898797D-147E-468F-A8AA-E31E1CF4633B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E898797D-147E-468F-A8AA-E31E1CF4633B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E898797D-147E-468F-A8AA-E31E1CF4633B}.Release|x64.ActiveCfg = Release|x64
+		{E898797D-147E-468F-A8AA-E31E1CF4633B}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F80326C-A8B7-4912-BA7B-131199ED393D}
+	EndGlobalSection
+EndGlobal

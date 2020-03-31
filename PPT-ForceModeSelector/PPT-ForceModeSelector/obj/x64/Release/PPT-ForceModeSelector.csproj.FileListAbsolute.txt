@@ -1,0 +1,12 @@
+C:\Users\9902a\Documents\GitHub\-PPT-tools-source\PPT-ForceModeSelector\PPT-ForceModeSelector\obj\x64\Release\PPT-ForceModeSelector.csprojAssemblyReference.cache
+C:\Users\9902a\Documents\GitHub\-PPT-tools-source\PPT-ForceModeSelector\PPT-ForceModeSelector\obj\x64\Release\MainWindow.g.cs
+C:\Users\9902a\Documents\GitHub\-PPT-tools-source\PPT-ForceModeSelector\PPT-ForceModeSelector\obj\x64\Release\App.g.cs
+C:\Users\9902a\Documents\GitHub\-PPT-tools-source\PPT-ForceModeSelector\PPT-ForceModeSelector\obj\x64\Release\PPT-ForceModeSelector_MarkupCompile.cache
+C:\Users\9902a\Documents\GitHub\-PPT-tools-source\PPT-ForceModeSelector\PPT-ForceModeSelector\obj\x64\Release\PPT-ForceModeSelector_MarkupCompile.lref
+C:\Users\9902a\Documents\GitHub\-PPT-tools-source\PPT-ForceModeSelector\PPT-ForceModeSelector\bin\x64\Release\PPT-ForceModeSelector.exe.config
+C:\Users\9902a\Documents\GitHub\-PPT-tools-source\PPT-ForceModeSelector\PPT-ForceModeSelector\bin\x64\Release\PPT-ForceModeSelector.exe
+C:\Users\9902a\Documents\GitHub\-PPT-tools-source\PPT-ForceModeSelector\PPT-ForceModeSelector\obj\x64\Release\MainWindow.baml
+C:\Users\9902a\Documents\GitHub\-PPT-tools-source\PPT-ForceModeSelector\PPT-ForceModeSelector\obj\x64\Release\PPT-ForceModeSelector.g.resources
+C:\Users\9902a\Documents\GitHub\-PPT-tools-source\PPT-ForceModeSelector\PPT-ForceModeSelector\obj\x64\Release\PPT_ForceModeSelector.Properties.Resources.resources
+C:\Users\9902a\Documents\GitHub\-PPT-tools-source\PPT-ForceModeSelector\PPT-ForceModeSelector\obj\x64\Release\PPT-ForceModeSelector.csproj.GenerateResource.cache
+C:\Users\9902a\Documents\GitHub\-PPT-tools-source\PPT-ForceModeSelector\PPT-ForceModeSelector\obj\x64\Release\PPT-ForceModeSelector.exe

@@ -1,0 +1,18 @@
+﻿<Window x:Class="PPT_core_AI_button.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PPT_core_AI_button"
+        Closed="Window_Closed"
+        mc:Ignorable="d"
+        Title="PPT-coreai by whitetac(9902abcd@gmail.com)" Height="252" Width="289">
+    <Grid Margin="0,0,2,4">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="440*"/>
+            <ColumnDefinition Width="31*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="195" Width="270" FontSize="18"><Run Text="while this window is open"/><LineBreak/><Run Text="&quot;"/><Run Text="CORE AI"/><Run Text="&quot;"/><Run Text=" will run."/><LineBreak/><Run/><LineBreak/><Run Text="이 창이 열려있는 동안"/><LineBreak/><Run Text="&quot;CORE AI&quot;가 실행됩니다."/><LineBreak/><LineBreak/><Run Text="このウィンドウが開いている間"/><LineBreak/><Run Text="「CORE AI」が実行されます。"/></TextBlock>
+
+    </Grid>
+</Window>

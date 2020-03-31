@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPT core AI button", "PPT core AI button\PPT core AI button.csproj", "{E7FE98B8-1F28-4975-B8C5-EB1099B7F33E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7FE98B8-1F28-4975-B8C5-EB1099B7F33E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7FE98B8-1F28-4975-B8C5-EB1099B7F33E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7FE98B8-1F28-4975-B8C5-EB1099B7F33E}.Debug|x64.ActiveCfg = Release|x64
+		{E7FE98B8-1F28-4975-B8C5-EB1099B7F33E}.Debug|x64.Build.0 = Release|x64
+		{E7FE98B8-1F28-4975-B8C5-EB1099B7F33E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7FE98B8-1F28-4975-B8C5-EB1099B7F33E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7FE98B8-1F28-4975-B8C5-EB1099B7F33E}.Release|x64.ActiveCfg = Release|x64
+		{E7FE98B8-1F28-4975-B8C5-EB1099B7F33E}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90F252E5-487F-472C-BCC2-46B523E473EC}
+	EndGlobalSection
+EndGlobal

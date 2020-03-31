@@ -1,0 +1,41 @@
+﻿<Window x:Class="PPT_user_filter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PPT_user_fillter"
+        mc:Ignorable="d"
+        Closed="Window_Closed"
+        Title="PPT User Filter by whitetac(9902abcd@gmail.com)" Height="301" Width="388" ResizeMode="NoResize">
+    <Grid Margin="0,0,0,-59">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="85*"/>
+            <ColumnDefinition Width="288*"/>
+        </Grid.ColumnDefinitions>
+
+        <Button Content="Refresh" Margin="10,10,286,0" VerticalAlignment="Top" Click="Button_Click_4" Grid.ColumnSpan="2"/>
+        <Button Content="Open Selected Steam Profile Page" HorizontalAlignment="Left" Margin="55,10,0,0" VerticalAlignment="Top" Width="221" Click="Button_Click_5" Grid.Column="1"/>
+        <GroupBox Header="GroupBox" HorizontalAlignment="Left" Height="79" Margin="6,35,0,0" VerticalAlignment="Top" Width="355" Grid.ColumnSpan="2">
+            <StackPanel>
+                <RadioButton Content="Left" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_2" Name="leftradio" />
+                <RadioButton Content="Right" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" IsChecked="True" Checked="RadioButton_Checked_1" Name="rightradio" />
+            </StackPanel>
+        </GroupBox>
+        <StackPanel Margin="0,140,0,131" Orientation="Horizontal" Grid.ColumnSpan="2">
+            <Button Margin="9" Content="(ai)" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="ai_Click"/>
+            <Button Margin="9" Content="(lag)" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="lag_Click"/>
+            <Button Margin="9" Content="(c4w)" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="c4w_Click"/>
+            <Button Margin="9" Content="(normal)" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="normal_Click"/>
+        </StackPanel>
+        <TextBlock HorizontalAlignment="Left" Margin="10,119,-68,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="16" Width="440" Grid.ColumnSpan="2"><Run Text="Check User"/><Run Text=" and Select tag"/><LineBreak/><Run/></TextBlock>
+        <StackPanel Margin="0,169,0,102" Orientation="Horizontal" Grid.ColumnSpan="2">
+            <Button Margin="9" Content="(disconnet)" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="disconnet_Click"/>
+            <Button Margin="9" Content="(4w)" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="a4w_Click"/>
+            <Button Margin="9" Content="(puyo)" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="puyo_Click"/>
+            <Button Margin="9" Content="(tetris)" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="tetris_Click"/>
+        </StackPanel>
+        <Button Margin="203,208,0,0" Content="Add Tag" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="Custom_Click" Height="23" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,208,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="273" Name="customtag" Grid.ColumnSpan="2"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,236,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="15" Width="351" Grid.ColumnSpan="2"><Run Text="type in textbox w"/><Run Text="ithout &quot;(&quot;"/><Run Text=" and &quot;)&quot;   ex) ai, lag, c4w, normal"/></TextBlock>
+    </Grid>
+</Window>
