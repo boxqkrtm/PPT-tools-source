@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPT-RoomNameChanger", "PPT-RoomNameChanger\PPT-RoomNameChanger.csproj", "{F4624E24-A519-4CE8-A5D8-16A1A360A60F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4624E24-A519-4CE8-A5D8-16A1A360A60F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4624E24-A519-4CE8-A5D8-16A1A360A60F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4624E24-A519-4CE8-A5D8-16A1A360A60F}.Debug|x64.ActiveCfg = Debug|x64
+		{F4624E24-A519-4CE8-A5D8-16A1A360A60F}.Debug|x64.Build.0 = Debug|x64
+		{F4624E24-A519-4CE8-A5D8-16A1A360A60F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4624E24-A519-4CE8-A5D8-16A1A360A60F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4624E24-A519-4CE8-A5D8-16A1A360A60F}.Release|x64.ActiveCfg = Release|x64
+		{F4624E24-A519-4CE8-A5D8-16A1A360A60F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {472CD500-CEC5-47C7-B2E2-1584E5D03AC6}
+	EndGlobalSection
+EndGlobal
