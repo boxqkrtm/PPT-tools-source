@@ -8,6 +8,6 @@
         Closed="Window_Closed"
         Title="MainWindow" Height="300" Width="300">
     <Grid>
-        <TextBlock>ㄹㅇㅋㅋ 켜고있으면 발키리아르르 픽함</TextBlock>
+        <TextBlock>켜놓고있으면 발키리아르르 픽함</TextBlock>
     </Grid>
 </Window>
