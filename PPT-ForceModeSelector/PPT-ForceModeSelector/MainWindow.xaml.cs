@@ -33,6 +33,7 @@ namespace PPT_ForceModeSelector
             a6w.Click += radioButtons_CheckedChanged;
             a10w.Click += radioButtons_CheckedChanged;
             nodamage.Click += radioButtons_CheckedChanged;
+            puyo1.Click += radioButtons_CheckedChanged;
         }
 
         public void radioButtons_CheckedChanged(object sender, EventArgs e)
@@ -41,7 +42,13 @@ namespace PPT_ForceModeSelector
             if (worker != null) worker.Abort();
             if (none.IsChecked == true)
             {
-
+                //revert puyo1 rule
+                Game.WriteUInt16(new IntPtr(5371976384L + (long)(24 * 2)), (ushort)669);
+            }
+            else if (puyo1.IsChecked == true)
+            {
+                worker = new Thread(() => Run(5));
+                worker.Start();
             }
             else if (mini.IsChecked == true)
             {
@@ -123,11 +130,17 @@ namespace PPT_ForceModeSelector
                         Game.WriteInt32(new IntPtr(0x140598BB0), 0);
                         break;
                     case 5:
+                        Game.WriteUInt16(new IntPtr(5371976384L + (long)(24 * 2)), (ushort)0);
+                        break;
+                    case 6:
+                        Game.WriteUInt16(new IntPtr(5371976384L + (long)(24 * 2)), (ushort)669);
+                        break;
+                    case 10:
                         //you have been disconnected from the internet
                         Game.WriteInt32(new IntPtr(0x1404606A4), 20);
                         Game.WriteInt32(new IntPtr(0x1404606A0), 20);
                         break;
-                    case 6:
+                    case 20:
                         //puzzle league loadding
                         Game.WriteInt32(new IntPtr(0x1404606A4), 15);
                         Game.WriteInt32(new IntPtr(0x1404606A0), 15);

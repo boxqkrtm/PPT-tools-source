@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:PPT_ForceTinyPuyo_netframe"
         mc:Ignorable="d"
         Closed="Window_Closed"
-        Title="PPT-FMS v3 by whitetac(9902abcd@gmail.com)" Height="252" Width="338.998" SizeToContent="Height">
+        Title="PPT-FMS v4 by whitetac(9902abcd@gmail.com)" Height="252" Width="338.998" SizeToContent="Height">
 
     <Grid Margin="10,10,10,10">
         <StackPanel>
@@ -15,6 +15,7 @@
                 <StackPanel>
                     <RadioButton Name="mini" GroupName="set" Height="16">Force Mini Puyo</RadioButton>
                     <RadioButton Name="end" GroupName="set" Height="16">Force EndlessFerver</RadioButton>
+                    <RadioButton Name="puyo1" GroupName="set" Height="16">Force Puyo1</RadioButton>
                 </StackPanel>
             </GroupBox>
             <GroupBox Header="Tetris">
